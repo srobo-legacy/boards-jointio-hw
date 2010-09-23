@@ -1,0 +1,4 @@
+schematics jointio.sch
+output-name jointio
+elements-dir ./components/pkg
+
