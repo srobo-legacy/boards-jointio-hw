@@ -489,6 +489,8 @@ T 66100 54600 5 10 0 0 0 6 1
 device=CONNECTOR_8
 T 66100 54000 5 10 1 1 0 6 1
 refdes=J?
+T 64700 51200 5 10 1 1 0 0 1
+value=sr-cn-minicamcon8w
 }
 C 63200 54300 1 0 0 resistor-2.sym
 {
@@ -738,6 +740,8 @@ T 66100 44300 5 10 0 0 0 6 1
 device=CONNECTOR_8
 T 66100 43700 5 10 1 1 0 6 1
 refdes=J?
+T 64700 40900 5 10 1 1 0 0 1
+value=sr-cn-minicamcon8w
 }
 C 62100 44600 1 0 0 polyfuse-1.sym
 {
@@ -1427,6 +1431,8 @@ T 48500 51800 5 10 0 0 0 6 1
 device=CONNECTOR_4
 T 50300 52300 5 10 1 1 0 6 1
 refdes=J?
+T 48600 50700 5 10 1 1 0 0 1
+value=sr-cn-minicamcon4w
 }
 C 50300 48500 1 0 1 connector4-1.sym
 {
@@ -1434,6 +1440,8 @@ T 48500 49400 5 10 0 0 0 6 1
 device=CONNECTOR_4
 T 50300 49900 5 10 1 1 0 6 1
 refdes=J?
+T 48600 48300 5 10 1 1 0 0 1
+value=sr-cn-minicamcon4w
 }
 N 48600 49600 48600 48700 4
 N 48600 51100 48600 52000 4
