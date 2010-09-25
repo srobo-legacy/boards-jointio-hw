@@ -427,6 +427,8 @@ T 46300 45600 5 10 1 1 0 0 1
 refdes=R8
 T 46300 45400 5 10 1 1 0 0 1
 value=sr-r-330
+T 46000 46000 5 10 0 0 0 0 1
+footprint=sr_0603
 }
 C 45900 45100 1 270 0 led-1.sym
 {
@@ -463,6 +465,8 @@ T 66100 54000 5 10 1 1 0 6 1
 refdes=J1
 T 64900 51200 5 10 1 1 0 0 1
 value=sr-cn-minicamcon8w
+T 66200 51400 5 10 0 0 0 0 1
+footprint=minicamcon8
 }
 N 63400 53700 63400 54400 4
 N 62400 54400 63400 54400 4
@@ -652,6 +656,8 @@ T 66100 43700 5 10 1 1 0 6 1
 refdes=J5
 T 64700 40900 5 10 1 1 0 0 1
 value=sr-cn-minicamcon8w
+T 66200 41100 5 10 0 0 0 0 1
+footprint=minicamcon8
 }
 C 62100 44600 1 0 0 polyfuse-1.sym
 {
@@ -1367,6 +1373,8 @@ T 50300 52300 5 10 1 1 0 6 1
 refdes=J2
 T 48600 50700 5 10 1 1 0 0 1
 value=sr-cn-minicamcon4w
+T 50300 50900 5 10 0 0 0 0 1
+footprint=minicamcon4
 }
 C 50300 48500 1 0 1 connector4-1.sym
 {
@@ -1376,6 +1384,8 @@ T 50300 49900 5 10 1 1 0 6 1
 refdes=J3
 T 48600 48300 5 10 1 1 0 0 1
 value=sr-cn-minicamcon4w
+T 50300 48500 5 10 0 0 0 0 1
+footprint=minicamcon4
 }
 N 48600 49600 48600 48700 4
 N 48600 51100 48600 52000 4
