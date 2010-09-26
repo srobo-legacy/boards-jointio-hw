@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Sun Sep 26 14:19:58 2010
+# date:    Sun Sep 26 14:36:52 2010
 # user:    rbarlow (Richard Barlow)
 # host:    thinkpad.richardbarlow.co.uk
 
@@ -893,7 +893,24 @@ Element["" "ra_1206" "R4" "sr-ra-4-1k" 448818 275590 0 0 0 100 ""]
 
 	)
 
-Element["" "ra_1206" "R10" "sr-ra-4-330" 212598 56693 0 0 0 100 ""]
+Element["" "ra_1206" "R10" "sr-ra-4-330" 110628 49607 0 0 2 100 ""]
+(
+	Pad[-935 0 935 0 1673 1968 2657 "1" "1" "square,edge2"]
+	Pad[-935 -3150 935 -3150 1673 1968 2657 "2" "2" "square,edge2"]
+	Pad[-935 -6299 935 -6299 1673 1968 2657 "3" "3" "square,edge2"]
+	Pad[-935 -9449 935 -9449 1673 1968 2657 "4" "4" "square,edge2"]
+	Pad[-7628 0 -5758 0 1673 1968 2657 "8" "8" "square"]
+	Pad[-7628 -3150 -5758 -3150 1673 1968 2657 "7" "7" "square"]
+	Pad[-7628 -6299 -5758 -6299 1673 1968 2657 "6" "6" "square"]
+	Pad[-7628 -9449 -5758 -9449 1673 1968 2657 "5" "5" "square"]
+	ElementLine [-9449 1575 2756 1575 787]
+	ElementLine [2756 -11024 2756 1575 787]
+	ElementLine [-9449 -11024 2756 -11024 787]
+	ElementLine [-9449 -11024 -9449 1575 787]
+
+	)
+
+Element["" "ra_1206" "R13" "sr-ra-4-330" 103936 173621 0 0 0 100 ""]
 (
 	Pad[-935 0 935 0 1673 1968 2657 "1" "1" "square"]
 	Pad[-935 3150 935 3150 1673 1968 2657 "2" "2" "square"]
@@ -910,54 +927,29 @@ Element["" "ra_1206" "R10" "sr-ra-4-330" 212598 56693 0 0 0 100 ""]
 
 	)
 
-Element["" "ra_1206" "R11" "sr-ra-4-330" 250394 58661 0 0 0 100 ""]
+Element["" "PLCC2" "LED8" "sr-led-yellow-plcc2" 124849 216142 22100 0 3 100 ""]
 (
-	Pad[-935 0 935 0 1673 1968 2657 "1" "1" "square"]
-	Pad[-935 3150 935 3150 1673 1968 2657 "2" "2" "square"]
-	Pad[-935 6299 935 6299 1673 1968 2657 "3" "3" "square"]
-	Pad[-935 9449 935 9449 1673 1968 2657 "4" "4" "square"]
-	Pad[5758 0 7628 0 1673 1968 2657 "8" "8" "square,edge2"]
-	Pad[5758 3150 7628 3150 1673 1968 2657 "7" "7" "square,edge2"]
-	Pad[5758 6299 7628 6299 1673 1968 2657 "6" "6" "square,edge2"]
-	Pad[5758 9449 7628 9449 1673 1968 2657 "5" "5" "square,edge2"]
-	ElementLine [-2756 -1575 9449 -1575 787]
-	ElementLine [-2756 -1575 -2756 11024 787]
-	ElementLine [-2756 11024 9449 11024 787]
-	ElementLine [9449 -1575 9449 11024 787]
+	Pad[-5860 -2118 -5860 2118 6000 2000 6600 "2" "2" "square"]
+	Pad[5860 -2118 5860 2118 6000 2000 6600 "1" "1" "square"]
+	ElementLine [-6690 -3900 -6690 5900 1000]
+	ElementLine [-6690 5900 6690 5900 1000]
+	ElementLine [6690 5900 6690 -5900 1000]
+	ElementLine [6690 -5900 -4690 -5900 1000]
+	ElementLine [-6690 -3900 -4690 -5900 1000]
+	ElementArc [0 0 4000 4000 0 360 1000]
 
 	)
 
-Element["" "ra_1206" "R12" "sr-ra-4-330" 385826 275590 0 0 0 100 ""]
+Element["" "PLCC2" "LED4" "sr-led-yellow-plcc2" 124849 231102 22100 0 3 100 ""]
 (
-	Pad[-935 0 935 0 1673 1968 2657 "1" "1" "square"]
-	Pad[-935 3150 935 3150 1673 1968 2657 "2" "2" "square"]
-	Pad[-935 6299 935 6299 1673 1968 2657 "3" "3" "square"]
-	Pad[-935 9449 935 9449 1673 1968 2657 "4" "4" "square"]
-	Pad[5758 0 7628 0 1673 1968 2657 "8" "8" "square,edge2"]
-	Pad[5758 3150 7628 3150 1673 1968 2657 "7" "7" "square,edge2"]
-	Pad[5758 6299 7628 6299 1673 1968 2657 "6" "6" "square,edge2"]
-	Pad[5758 9449 7628 9449 1673 1968 2657 "5" "5" "square,edge2"]
-	ElementLine [-2756 -1575 9449 -1575 787]
-	ElementLine [-2756 -1575 -2756 11024 787]
-	ElementLine [-2756 11024 9449 11024 787]
-	ElementLine [9449 -1575 9449 11024 787]
-
-	)
-
-Element["" "ra_1206" "R13" "sr-ra-4-330" 362204 275590 0 0 0 100 ""]
-(
-	Pad[-935 0 935 0 1673 1968 2657 "1" "1" "square"]
-	Pad[-935 3150 935 3150 1673 1968 2657 "2" "2" "square"]
-	Pad[-935 6299 935 6299 1673 1968 2657 "3" "3" "square"]
-	Pad[-935 9449 935 9449 1673 1968 2657 "4" "4" "square"]
-	Pad[5758 0 7628 0 1673 1968 2657 "8" "8" "square,edge2"]
-	Pad[5758 3150 7628 3150 1673 1968 2657 "7" "7" "square,edge2"]
-	Pad[5758 6299 7628 6299 1673 1968 2657 "6" "6" "square,edge2"]
-	Pad[5758 9449 7628 9449 1673 1968 2657 "5" "5" "square,edge2"]
-	ElementLine [-2756 -1575 9449 -1575 787]
-	ElementLine [-2756 -1575 -2756 11024 787]
-	ElementLine [-2756 11024 9449 11024 787]
-	ElementLine [9449 -1575 9449 11024 787]
+	Pad[-5860 -2118 -5860 2118 6000 2000 6600 "2" "2" "square"]
+	Pad[5860 -2118 5860 2118 6000 2000 6600 "1" "1" "square"]
+	ElementLine [-6690 -3900 -6690 5900 1000]
+	ElementLine [-6690 5900 6690 5900 1000]
+	ElementLine [6690 5900 6690 -5900 1000]
+	ElementLine [6690 -5900 -4690 -5900 1000]
+	ElementLine [-6690 -3900 -4690 -5900 1000]
+	ElementArc [0 0 4000 4000 0 360 1000]
 
 	)
 
@@ -2228,29 +2220,37 @@ Element["" "PLCC2" "LED5" "sr-led-yellow-plcc2" 124849 201181 22100 0 3 100 ""]
 
 	)
 
-Element["" "PLCC2" "LED8" "sr-led-yellow-plcc2" 124849 216142 22100 0 3 100 ""]
+Element["" "ra_1206" "R12" "sr-ra-4-330" 103937 233859 0 0 0 100 ""]
 (
-	Pad[-5860 -2118 -5860 2118 6000 2000 6600 "2" "2" "square"]
-	Pad[5860 -2118 5860 2118 6000 2000 6600 "1" "1" "square"]
-	ElementLine [-6690 -3900 -6690 5900 1000]
-	ElementLine [-6690 5900 6690 5900 1000]
-	ElementLine [6690 5900 6690 -5900 1000]
-	ElementLine [6690 -5900 -4690 -5900 1000]
-	ElementLine [-6690 -3900 -4690 -5900 1000]
-	ElementArc [0 0 4000 4000 0 360 1000]
+	Pad[-935 0 935 0 1673 1968 2657 "1" "1" "square"]
+	Pad[-935 3150 935 3150 1673 1968 2657 "2" "2" "square"]
+	Pad[-935 6299 935 6299 1673 1968 2657 "3" "3" "square"]
+	Pad[-935 9449 935 9449 1673 1968 2657 "4" "4" "square"]
+	Pad[5758 0 7628 0 1673 1968 2657 "8" "8" "square,edge2"]
+	Pad[5758 3150 7628 3150 1673 1968 2657 "7" "7" "square,edge2"]
+	Pad[5758 6299 7628 6299 1673 1968 2657 "6" "6" "square,edge2"]
+	Pad[5758 9449 7628 9449 1673 1968 2657 "5" "5" "square,edge2"]
+	ElementLine [-2756 -1575 9449 -1575 787]
+	ElementLine [-2756 -1575 -2756 11024 787]
+	ElementLine [-2756 11024 9449 11024 787]
+	ElementLine [9449 -1575 9449 11024 787]
 
 	)
 
-Element["" "PLCC2" "LED4" "sr-led-yellow-plcc2" 124849 231102 22100 0 3 100 ""]
+Element["" "ra_1206" "R11" "sr-ra-4-330" 110630 109449 0 0 2 100 ""]
 (
-	Pad[-5860 -2118 -5860 2118 6000 2000 6600 "2" "2" "square"]
-	Pad[5860 -2118 5860 2118 6000 2000 6600 "1" "1" "square"]
-	ElementLine [-6690 -3900 -6690 5900 1000]
-	ElementLine [-6690 5900 6690 5900 1000]
-	ElementLine [6690 5900 6690 -5900 1000]
-	ElementLine [6690 -5900 -4690 -5900 1000]
-	ElementLine [-6690 -3900 -4690 -5900 1000]
-	ElementArc [0 0 4000 4000 0 360 1000]
+	Pad[-935 0 935 0 1673 1968 2657 "1" "1" "square,edge2"]
+	Pad[-935 -3150 935 -3150 1673 1968 2657 "2" "2" "square,edge2"]
+	Pad[-935 -6299 935 -6299 1673 1968 2657 "3" "3" "square,edge2"]
+	Pad[-935 -9449 935 -9449 1673 1968 2657 "4" "4" "square,edge2"]
+	Pad[-7628 0 -5758 0 1673 1968 2657 "8" "8" "square"]
+	Pad[-7628 -3150 -5758 -3150 1673 1968 2657 "7" "7" "square"]
+	Pad[-7628 -6299 -5758 -6299 1673 1968 2657 "6" "6" "square"]
+	Pad[-7628 -9449 -5758 -9449 1673 1968 2657 "5" "5" "square"]
+	ElementLine [-9449 1575 2756 1575 787]
+	ElementLine [2756 -11024 2756 1575 787]
+	ElementLine [-9449 -11024 2756 -11024 787]
+	ElementLine [-9449 -11024 -9449 1575 787]
 
 	)
 Layer(1 "component")
@@ -3054,98 +3054,98 @@ NetList()
 	)
 	Net("IN0" "(unknown)")
 	(
-		Connect("R10-4")
+		Connect("R10-5")
 		Connect("U2-31")
 	)
 	Net("IN1" "(unknown)")
 	(
-		Connect("R10-3")
+		Connect("R10-6")
 		Connect("U2-32")
 	)
 	Net("IN2" "(unknown)")
 	(
-		Connect("R10-2")
+		Connect("R10-7")
 		Connect("U2-33")
 	)
 	Net("IN3" "(unknown)")
 	(
-		Connect("R10-1")
+		Connect("R10-8")
 		Connect("U2-34")
 	)
 	Net("IN4" "(unknown)")
 	(
-		Connect("R11-4")
+		Connect("R11-5")
 		Connect("U2-35")
 	)
 	Net("IN5" "(unknown)")
 	(
-		Connect("R11-3")
+		Connect("R11-6")
 		Connect("U2-36")
 	)
 	Net("IN6" "(unknown)")
 	(
-		Connect("R11-2")
+		Connect("R11-7")
 		Connect("U2-37")
 	)
 	Net("IN7" "(unknown)")
 	(
-		Connect("R11-1")
+		Connect("R11-8")
 		Connect("U2-38")
 	)
 	Net("OUT0" "(unknown)")
 	(
 		Connect("Q6-2")
 		Connect("Q6-5")
-		Connect("R12-5")
+		Connect("R12-4")
 		Connect("U2-17")
 	)
 	Net("OUT1" "(unknown)")
 	(
 		Connect("Q5-2")
 		Connect("Q5-5")
-		Connect("R12-6")
+		Connect("R12-3")
 		Connect("U2-18")
 	)
 	Net("OUT2" "(unknown)")
 	(
 		Connect("Q4-2")
 		Connect("Q4-5")
-		Connect("R12-7")
+		Connect("R12-2")
 		Connect("U2-19")
 	)
 	Net("OUT3" "(unknown)")
 	(
 		Connect("Q3-2")
 		Connect("Q3-5")
-		Connect("R12-8")
+		Connect("R12-1")
 		Connect("U2-20")
 	)
 	Net("OUT4" "(unknown)")
 	(
 		Connect("Q7-2")
 		Connect("Q7-5")
-		Connect("R13-5")
+		Connect("R13-4")
 		Connect("U2-21")
 	)
 	Net("OUT5" "(unknown)")
 	(
 		Connect("Q8-2")
 		Connect("Q8-5")
-		Connect("R13-6")
+		Connect("R13-3")
 		Connect("U2-22")
 	)
 	Net("OUT6" "(unknown)")
 	(
 		Connect("Q9-2")
 		Connect("Q9-5")
-		Connect("R13-7")
+		Connect("R13-2")
 		Connect("U2-23")
 	)
 	Net("OUT7" "(unknown)")
 	(
 		Connect("Q10-2")
 		Connect("Q10-5")
-		Connect("R13-8")
+		Connect("R13-1")
 		Connect("U2-24")
 	)
 	Net("RX_D" "(unknown)")
@@ -3334,42 +3334,42 @@ NetList()
 	Net("unnamed_net15" "(unknown)")
 	(
 		Connect("LED11-1")
-		Connect("R10-5")
+		Connect("R10-4")
 	)
 	Net("unnamed_net16" "(unknown)")
 	(
 		Connect("LED15-1")
-		Connect("R10-6")
+		Connect("R10-3")
 	)
 	Net("unnamed_net17" "(unknown)")
 	(
 		Connect("LED12-1")
-		Connect("R10-7")
+		Connect("R10-2")
 	)
 	Net("unnamed_net18" "(unknown)")
 	(
 		Connect("LED16-1")
-		Connect("R10-8")
+		Connect("R10-1")
 	)
 	Net("unnamed_net19" "(unknown)")
 	(
 		Connect("LED13-1")
-		Connect("R11-5")
+		Connect("R11-4")
 	)
 	Net("unnamed_net20" "(unknown)")
 	(
 		Connect("LED17-1")
-		Connect("R11-6")
+		Connect("R11-3")
 	)
 	Net("unnamed_net21" "(unknown)")
 	(
 		Connect("LED14-1")
-		Connect("R11-7")
+		Connect("R11-2")
 	)
 	Net("unnamed_net22" "(unknown)")
 	(
 		Connect("LED18-1")
-		Connect("R11-8")
+		Connect("R11-1")
 	)
 	Net("unnamed_net23" "(unknown)")
 	(
@@ -3507,42 +3507,42 @@ NetList()
 	Net("unnamed_net48" "(unknown)")
 	(
 		Connect("LED3-2")
-		Connect("R12-4")
+		Connect("R12-5")
 	)
 	Net("unnamed_net49" "(unknown)")
 	(
 		Connect("LED7-2")
-		Connect("R12-3")
+		Connect("R12-6")
 	)
 	Net("unnamed_net50" "(unknown)")
 	(
 		Connect("LED4-2")
-		Connect("R12-2")
+		Connect("R12-7")
 	)
 	Net("unnamed_net51" "(unknown)")
 	(
 		Connect("LED8-2")
-		Connect("R12-1")
+		Connect("R12-8")
 	)
 	Net("unnamed_net52" "(unknown)")
 	(
 		Connect("LED5-2")
-		Connect("R13-4")
+		Connect("R13-5")
 	)
 	Net("unnamed_net53" "(unknown)")
 	(
 		Connect("LED9-2")
-		Connect("R13-3")
+		Connect("R13-6")
 	)
 	Net("unnamed_net54" "(unknown)")
 	(
 		Connect("LED6-2")
-		Connect("R13-2")
+		Connect("R13-7")
 	)
 	Net("unnamed_net55" "(unknown)")
 	(
 		Connect("LED10-2")
-		Connect("R13-1")
+		Connect("R13-8")
 	)
 	Net("unnamed_net56" "(unknown)")
 	(
