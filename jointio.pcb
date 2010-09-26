@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Sun Sep 26 15:44:09 2010
+# date:    Sun Sep 26 15:45:43 2010
 # user:    rbarlow (Richard Barlow)
 # host:    thinkpad.richardbarlow.co.uk
 
@@ -1056,12 +1056,12 @@ Element["" "PLCC2" "LED13" "sr-led-red-plcc2" 124848 216142 -22100 0 1 100 ""]
 
 	)
 
-Element["" "sr_0603" "R6" "sr-r-330" 551180 236220 0 0 0 100 ""]
+Element["" "sr_0603" "R6" "sr-r-330" 66142 254331 0 0 1 100 ""]
 (
-	Pad[-2917 -484 -2917 484 2831 1968 3815 "2" "2" "square"]
-	Pad[2917 -484 2917 484 2831 1968 3815 "1" "1" "square"]
-	ElementLine [-787 -1508 787 -1508 787]
-	ElementLine [-787 1508 787 1508 787]
+	Pad[-484 2917 484 2917 2831 1968 3815 "2" "2" "square"]
+	Pad[-484 -2917 484 -2917 2831 1968 3815 "1" "1" "square"]
+	ElementLine [-1508 -787 -1508 787 787]
+	ElementLine [1508 -787 1508 787 787]
 
 	)
 
@@ -1613,16 +1613,16 @@ Element["" "SOT323" "Q2" "sr-fet-n-sn7002w" 403150 435827 9300 -9400 3 100 ""]
 
 	)
 
-Element["" "PLCC2" "LED1" "sr-led-green-plcc2" 379528 427953 22100 0 3 100 ""]
+Element["" "PLCC2" "LED1" "sr-led-green-plcc2" 78740 254331 -22100 0 1 100 ""]
 (
-	Pad[-5860 -2118 -5860 2118 6000 2000 6600 "2" "2" "square"]
-	Pad[5860 -2118 5860 2118 6000 2000 6600 "1" "1" "square"]
-	ElementLine [-6690 -3900 -6690 5900 1000]
-	ElementLine [-6690 5900 6690 5900 1000]
-	ElementLine [6690 5900 6690 -5900 1000]
-	ElementLine [6690 -5900 -4690 -5900 1000]
-	ElementLine [-6690 -3900 -4690 -5900 1000]
-	ElementArc [0 0 4000 4000 0 360 1000]
+	Pad[5860 -2118 5860 2118 6000 2000 6600 "2" "2" "square"]
+	Pad[-5860 -2118 -5860 2118 6000 2000 6600 "1" "1" "square"]
+	ElementLine [6690 -5900 6690 3900 1000]
+	ElementLine [-6690 -5900 6690 -5900 1000]
+	ElementLine [-6690 -5900 -6690 5900 1000]
+	ElementLine [-6690 5900 4690 5900 1000]
+	ElementLine [6690 3900 4690 5900 1000]
+	ElementArc [0 0 4000 4000 180 360 1000]
 
 	)
 
