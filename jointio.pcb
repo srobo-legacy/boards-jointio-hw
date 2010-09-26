@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Sun Sep 26 15:54:47 2010
+# date:    Sun Sep 26 15:56:26 2010
 # user:    rbarlow (Richard Barlow)
 # host:    thinkpad.richardbarlow.co.uk
 
@@ -950,27 +950,27 @@ Element["" "minicamcon8" "J1" "sr-cn-minicamcon8w" 140945 208603 0 0 1 100 ""]
 
 	)
 
-Element["" "SOT23" "D7" "sr-d-mmbz5v6al" 338582 283464 12300 -11000 3 100 ""]
+Element["onsolder" "SOT23" "D5" "sr-d-bat754s" 110698 249963 11000 -12300 2 100 "auto"]
 (
-	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
-	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
-	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
-	ElementLine [-2500 -11000 -2500 2900 1000]
-	ElementLine [-2500 2900 10300 2900 1000]
-	ElementLine [10300 2900 10300 -11000 1000]
-	ElementLine [10300 -11000 -2500 -11000 1000]
+	Pad[-300 0 300 0 3400 3000 4000 "1" "1" "onsolder,square"]
+	Pad[-300 -7800 300 -7800 3400 3000 4000 "2" "2" "onsolder,square"]
+	Pad[7900 -3900 8500 -3900 3400 3000 4000 "3" "3" "onsolder,square,edge2"]
+	ElementLine [-2900 2500 11000 2500 1000]
+	ElementLine [-2900 -10300 -2900 2500 1000]
+	ElementLine [-2900 -10300 11000 -10300 1000]
+	ElementLine [11000 -10300 11000 2500 1000]
 
 	)
 
-Element["" "SOT23" "D8" "sr-d-mmbz5v6al" 314960 283464 12300 -11000 3 100 ""]
+Element["onsolder" "SOT23" "D6" "sr-d-bat754s" 110698 264924 11000 -12300 2 100 "auto"]
 (
-	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
-	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
-	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
-	ElementLine [-2500 -11000 -2500 2900 1000]
-	ElementLine [-2500 2900 10300 2900 1000]
-	ElementLine [10300 2900 10300 -11000 1000]
-	ElementLine [10300 -11000 -2500 -11000 1000]
+	Pad[-300 0 300 0 3400 3000 4000 "1" "1" "onsolder,square"]
+	Pad[-300 -7800 300 -7800 3400 3000 4000 "2" "2" "onsolder,square"]
+	Pad[7900 -3900 8500 -3900 3400 3000 4000 "3" "3" "onsolder,square,edge2"]
+	ElementLine [-2900 2500 11000 2500 1000]
+	ElementLine [-2900 -10300 -2900 2500 1000]
+	ElementLine [-2900 -10300 11000 -10300 1000]
+	ElementLine [11000 -10300 11000 2500 1000]
 
 	)
 
@@ -2230,27 +2230,27 @@ Element["onsolder" "SOT23" "D4" "sr-d-bat754s" 110698 234609 11000 -12300 2 100 
 
 	)
 
-Element["onsolder" "SOT23" "D5" "sr-d-bat754s" 110698 249963 11000 -12300 2 100 "auto"]
+Element["onsolder" "SOT23" "D7" "sr-d-mmbz5v6al" 34178 276378 -12300 -11000 1 100 "auto"]
 (
-	Pad[-300 0 300 0 3400 3000 4000 "1" "1" "onsolder,square"]
-	Pad[-300 -7800 300 -7800 3400 3000 4000 "2" "2" "onsolder,square"]
-	Pad[7900 -3900 8500 -3900 3400 3000 4000 "3" "3" "onsolder,square,edge2"]
-	ElementLine [-2900 2500 11000 2500 1000]
-	ElementLine [-2900 -10300 -2900 2500 1000]
-	ElementLine [-2900 -10300 11000 -10300 1000]
-	ElementLine [11000 -10300 11000 2500 1000]
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "onsolder,square,edge2"]
+	Pad[-7800 -300 -7800 300 3400 3000 4000 "2" "2" "onsolder,square,edge2"]
+	Pad[-3900 -8500 -3900 -7900 3400 3000 4000 "3" "3" "onsolder,square"]
+	ElementLine [2500 -11000 2500 2900 1000]
+	ElementLine [-10300 2900 2500 2900 1000]
+	ElementLine [-10300 -11000 -10300 2900 1000]
+	ElementLine [-10300 -11000 2500 -11000 1000]
 
 	)
 
-Element["onsolder" "SOT23" "D6" "sr-d-bat754s" 110698 264924 11000 -12300 2 100 "auto"]
+Element["onsolder" "SOT23" "D8" "sr-d-mmbz5v6al" 16855 276378 -12300 -11000 1 100 "auto"]
 (
-	Pad[-300 0 300 0 3400 3000 4000 "1" "1" "onsolder,square"]
-	Pad[-300 -7800 300 -7800 3400 3000 4000 "2" "2" "onsolder,square"]
-	Pad[7900 -3900 8500 -3900 3400 3000 4000 "3" "3" "onsolder,square,edge2"]
-	ElementLine [-2900 2500 11000 2500 1000]
-	ElementLine [-2900 -10300 -2900 2500 1000]
-	ElementLine [-2900 -10300 11000 -10300 1000]
-	ElementLine [11000 -10300 11000 2500 1000]
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "onsolder,square,edge2"]
+	Pad[-7800 -300 -7800 300 3400 3000 4000 "2" "2" "onsolder,square,edge2"]
+	Pad[-3900 -8500 -3900 -7900 3400 3000 4000 "3" "3" "onsolder,square"]
+	ElementLine [2500 -11000 2500 2900 1000]
+	ElementLine [-10300 2900 2500 2900 1000]
+	ElementLine [-10300 -11000 -10300 2900 1000]
+	ElementLine [-10300 -11000 2500 -11000 1000]
 
 	)
 Layer(1 "component")
