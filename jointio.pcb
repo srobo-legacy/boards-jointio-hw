@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Sun Sep 26 15:52:13 2010
+# date:    Sun Sep 26 15:54:47 2010
 # user:    rbarlow (Richard Barlow)
 # host:    thinkpad.richardbarlow.co.uk
 
@@ -1555,15 +1555,15 @@ Element["onsolder" "SC70_6_2" "Q6" "sr-fet-np-us6m1" 114173 124959 -9400 8600 0 
 
 	)
 
-Element["" "SOT23" "D1" "sr-d-mmbz5v6al" 423696 155512 12300 -11000 3 100 ""]
+Element["onsolder" "SOT23" "D1" "sr-d-mmbz5v6al" 110631 146063 11000 -12300 2 100 "auto"]
 (
-	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
-	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
-	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
-	ElementLine [-2500 -11000 -2500 2900 1000]
-	ElementLine [-2500 2900 10300 2900 1000]
-	ElementLine [10300 2900 10300 -11000 1000]
-	ElementLine [10300 -11000 -2500 -11000 1000]
+	Pad[-300 0 300 0 3400 3000 4000 "1" "1" "onsolder,square"]
+	Pad[-300 -7800 300 -7800 3400 3000 4000 "2" "2" "onsolder,square"]
+	Pad[7900 -3900 8500 -3900 3400 3000 4000 "3" "3" "onsolder,square,edge2"]
+	ElementLine [-2900 2500 11000 2500 1000]
+	ElementLine [-2900 -10300 -2900 2500 1000]
+	ElementLine [-2900 -10300 11000 -10300 1000]
+	ElementLine [11000 -10300 11000 2500 1000]
 
 	)
 
