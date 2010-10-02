@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Sun Oct  3 00:21:00 2010
+# date:    Sun Oct  3 00:34:24 2010
 # user:    richard (Richard Barlow)
 # host:    richpc.richardbarlow.co.uk
 
@@ -9,7 +9,7 @@ FileVersion[20100606]
 PCB["" 157480 283465]
 
 Grid[393.700775 0 0 1]
-Cursor[0 0 0.000000]
+Cursor[0 283465 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[787 787 787 787 1969 787]
@@ -2074,7 +2074,7 @@ Element["onsolder" "sr_0603" "S/R8" "sr-r-330" 58859 124176 10432 -21421 1 78 "a
 
 	)
 
-Element["onsolder" "sr_0603" "S/C3" "sr-c-470n" 5117 41964 2954 -22280 1 89 "auto"]
+Element["onsolder" "sr_0603" "S/C3" "sr-c-470n" 5117 41964 3937 -11452 0 89 "auto"]
 (
 	Pad[-484 -2917 484 -2917 2831 1968 3815 "2" "2" "onsolder,square"]
 	Pad[-484 2917 484 2917 2831 1968 3815 "1" "1" "onsolder,square"]
@@ -4047,6 +4047,9 @@ Layer(2 "solder")
 	Line[77165 172172 73425 175912 1000 2000 "clearline"]
 	Line[87795 202756 99212 214173 787 1968 "clearline"]
 	Line[14961 262598 11811 262598 1000 2000 "clearline"]
+	Text[1575 7482 0 122 "SR11.P1" "auto"]
+	Text[1969 14959 0 111 "JointIO Board" "auto"]
+	Text[1969 25198 0 144 "srobo.org" "auto"]
 	Polygon("clearpoly")
 	(
 		[80315 66732] [90157 66732] [90157 76771] [80315 76771] 
@@ -4153,7 +4156,8 @@ Layer(4 "solder-GND")
 (
 	Polygon("clearpoly")
 	(
-		[0 0] [157480 0] [157480 55906] [0 55906] 
+		[0 25197] [42913 25197] [42913 7480] [27165 7480] [27165 0] 
+		[157480 0] [157480 55906] [0 55906] 
 	)
 	Polygon("clearpoly")
 	(
