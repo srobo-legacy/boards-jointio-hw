@@ -1,7 +1,7 @@
 # release: pcb 1.99z
-# date:    Sun Oct  3 00:34:24 2010
-# user:    richard (Richard Barlow)
-# host:    richpc.richardbarlow.co.uk
+# date:    Wed Oct  6 18:58:50 2010
+# user:    rbarlow (Richard Barlow)
+# host:    thinkpad.richardbarlow.co.uk
 
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20100606]
@@ -3062,6 +3062,14 @@ Layer(1 "component")
 	Line[29134 235039 32084 232089 1000 2000 "clearline"]
 	Line[32084 232089 32084 232084 1000 2000 "clearline"]
 	Line[29134 240873 29134 242126 1000 2000 "clearline"]
+	Line[7085 215748 5510 216929 1100 1600 "clearline"]
+	Line[15746 215748 17321 216929 1100 1600 "clearline"]
+	Line[11416 209842 17321 211811 1100 1600 "clearline,rubberend"]
+	Line[12597 214173 15746 215748 1100 1600 "clearline"]
+	Line[17321 211811 12597 214173 1100 1600 "clearline"]
+	Line[5510 211811 11416 209842 1100 1600 "clearline"]
+	Line[5510 211811 10235 214173 1100 1600 "clearline"]
+	Line[10235 214173 7085 215748 1100 1600 "clearline"]
 	Arc[39370 103936 2362 2362 1000 2000 0 90 "clearline"]
 	Arc[51771 139566 5709 5709 1000 2000 90 90 "clearline"]
 	Arc[51378 127755 6102 6102 1000 2000 -180 90 "clearline"]
@@ -3076,6 +3084,10 @@ Layer(1 "component")
 	Arc[14960 83070 8268 8268 1000 2000 180 90 "clearline"]
 	Arc[50393 67715 5119 5119 2000 2000 90 90 "clearline"]
 	Arc[50393 77952 5118 5118 2000 2000 -90 90 "clearline"]
+	Arc[11417 213386 8662 8662 1000 2000 180 90 "clearline"]
+	Arc[11417 213385 8661 8661 1000 2000 -90 90 "clearline"]
+	Arc[11418 213385 8662 8662 1000 2000 0 90 "clearline"]
+	Arc[11418 213386 8661 8661 1000 2000 90 90 "clearline"]
 	Text[57873 57480 1 154 "OUT" ""]
 	Text[58072 117912 1 154 "IN" ""]
 	Polygon("clearpoly")
