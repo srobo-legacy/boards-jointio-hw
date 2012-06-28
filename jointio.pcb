@@ -6,7 +6,7 @@ FileVersion[20091103]
 PCB["" 1574.80mil 72.0001mm]
 
 Grid[393.000000 0.0000 0.0000 1]
-Cursor[38.5999mm 602.36mil 0.000000]
+Cursor[0.0000 0.0000 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[7.87mil 7.87mil 7.87mil 7.87mil 19.69mil 7.87mil]
@@ -2890,11 +2890,9 @@ Layer(1 "component")
 	Line[25.9001mm 543.31mil 25.9001mm 14.4000mm 7.87mil 19.68mil "clearline"]
 	Line[26.7000mm 507.87mil 26.3997mm 496.05mil 7.87mil 19.68mil "clearline"]
 	Line[25.1000mm 14.1000mm 24.7000mm 13.7000mm 10.00mil 20.00mil "clearline"]
-	Line[25.1000mm 255.91mil 740.15mil 255.91mil 25.00mil 20.00mil ""]
 	Line[37.7000mm 35.9001mm 32.1000mm 35.9001mm 25.00mil 20.00mil "clearline"]
 	Line[255.91mil 68.8000mm 255.91mil 69.0999mm 25.00mil 20.00mil "clearline"]
 	Line[255.91mil 69.0999mm 212.60mil 70.2000mm 25.00mil 20.00mil "clearline"]
-	Line[740.15mil 255.91mil 16.7000mm 338.58mil 25.00mil 20.00mil ""]
 	Line[212.60mil 69.0999mm 228.35mil 69.5000mm 25.00mil 20.00mil "clearline"]
 	Line[683.08mil 56.3999mm 681.09mil 56.3494mm 7.87mil 19.68mil "clearline"]
 	Line[732.28mil 56.6001mm 724.40mil 56.3999mm 7.87mil 19.68mil "clearline"]
@@ -3083,6 +3081,9 @@ Layer(1 "component")
 	Text[580.72mil 29.9496mm 1 154 "IN" ""]
 	Text[23.63mil 122.07mil 0 166 "SR11.F" "clearline"]
 	Text[23.63mil 23.60mil 0 166 "JointIO" "clearline"]
+	Text[35.2003mm 15.75mil 0 188 "OUT" "clearline"]
+	Text[692.86mil 228.29mil 0 185 "GND" "clearline"]
+	Text[976.36mil 63.8998mm 0 153 "3V3" "clearline"]
 	Polygon("clearpoly")
 	(
 		[753.93mil 31.4498mm] [818.89mil 31.4498mm] [818.89mil 1011.80mil] [753.93mil 1011.80mil] 
@@ -3250,7 +3251,7 @@ Layer(2 "solder")
 	Line[16.2751mm 32.1498mm 16.2751mm 32.3248mm 7.87mil 20.00mil "clearline"]
 	Line[12.1100mm 30.7099mm 438.97mil 29.7497mm 7.87mil 20.00mil "clearline"]
 	Line[532.28mil 30.7099mm 12.1100mm 30.7099mm 7.87mil 20.00mil "clearline"]
-	Line[588.20mil 32.1498mm 532.28mil 30.7099mm 7.87mil 20.00mil "clearline"]
+	Line[588.20mil 32.1498mm 532.28mil 30.7099mm 7.87mil 20.00mil "found,clearline"]
 	Line[822.83mil 718.50mil 22.7500mm 718.50mil 10.00mil 20.00mil ""]
 	Line[771.65mil 594.48mil 820.86mil 594.48mil 25.00mil 20.00mil ""]
 	Line[588.20mil 32.1498mm 586.23mil 32.1498mm 7.87mil 20.00mil "clearline"]
@@ -4275,8 +4276,8 @@ Layer(6 "silk")
 	Text[14.7500mm 29.9496mm 1 154 "IN" ""]
 	Text[35.7998mm 68.8002mm 0 210 "IN" ""]
 	Text[35.2003mm 15.75mil 0 188 "OUT" ""]
-	Text[661.42mil 200.78mil 0 254 "GND" ""]
-	Text[964.57mil 63.8000mm 0 199 "3V3" ""]
+	Text[692.86mil 228.29mil 0 185 "GND" ""]
+	Text[976.36mil 63.8998mm 0 153 "3V3" ""]
 )
 NetList()
 (
