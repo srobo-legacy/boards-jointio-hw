@@ -6,7 +6,7 @@ FileVersion[20091103]
 PCB["" 1574.80mil 72.0001mm]
 
 Grid[393.000000 0.0000 0.0000 1]
-Cursor[0.0000 0.0000 0.000000]
+Cursor[0.0000 72.0001mm 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[7.87mil 7.87mil 7.87mil 7.87mil 19.69mil 7.87mil]
@@ -4248,6 +4248,10 @@ Layer(5 "silk")
 	Line[279.53mil 34.8000mm 279.53mil 33.9001mm 10.00mil 20.00mil "clearline"]
 	Line[2.0000mm 303.15mil 51.18mil 330.71mil 10.00mil 20.00mil "clearline"]
 	Line[51.18mil 330.71mil 51.18mil 362.20mil 10.00mil 20.00mil "clearline"]
+	Polygon("clearpoly")
+	(
+		[868.53mil 48.5135mm] [26.2532mm 48.5135mm] [26.2532mm 1296.90mil] [868.53mil 1296.90mil] 
+	)
 )
 Layer(6 "silk")
 (
